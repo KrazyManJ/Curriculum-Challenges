@@ -1,5 +1,7 @@
 # Curriculum Challenges
 
+This repository contains codefiles and challenge descriptions to all challenges in RobotC Virtual Worlds Curriculum. 
+
 ## Challenges
 
 - [Movement](Movement)

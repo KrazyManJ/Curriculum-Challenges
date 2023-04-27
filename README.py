@@ -15,6 +15,8 @@ def table_of_contents():
 open("README.md","w",encoding="UTF-8").write(f"""
 # Curriculum Challenges
 
+This repository contains codefiles and challenge descriptions to all challenges in RobotC Virtual Worlds Curriculum. 
+
 ## Challenges
 
 {table_of_contents()}

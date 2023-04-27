@@ -15,9 +15,17 @@ def table_of_contents():
 open("README.md","w",encoding="UTF-8").write(f"""
 # Curriculum Challenges
 
-## Table Of Contents
+## Challenges
 
 {table_of_contents()}
+
+## Code description
+
+**For all code files applies that**:
+- At the top there is defined robot to use to succesfully complete this challenge, so check it before challenge start to have correct robot in usage
+- All constants are defined via C-keyword `#define` at the top
+- I am trying to write code as efficient as possible
+
 """.strip())
     
     

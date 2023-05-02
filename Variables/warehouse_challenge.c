@@ -4,10 +4,10 @@
 #define SPEED 50
 #define DEF_DEGREE 0
 
-int linesAmount = 0;
 
 task countLines()
 {
+	int linesAmount = 0;
 	wait1Msec(500);
 	while (true){
 		if (SensorValue(light) < 60)
@@ -27,8 +27,9 @@ void ride(int time,int degrees = DEF_DEGREE)
 		int g = SensorValue(gyro)-degrees;
 		motor(leftMotor) = SPEED-2*g;
 		motor(rightMotor) = SPEED+2*g;
-  }
+	}
 }
+
 
 task main()
 {

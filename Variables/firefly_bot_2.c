@@ -17,6 +17,6 @@ task main()
 		maxLight = SensorValue(light) > maxLight ? SensorValue(light) : maxLight;
 	while (SensorValue(light) != maxLight){}
 	wait1Msec(50);
-  setMotors(SPEED,SPEED);
+	setMotors(SPEED,SPEED);
 	while (SensorValue(touch) == 0) {}
 }

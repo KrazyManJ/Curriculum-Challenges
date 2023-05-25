@@ -7,6 +7,7 @@ This repository contains codefiles and challenge descriptions to all challenges 
 - [Movement](Movement)
     - **Labyrinth Challenge** [[Code](Movement/labyrinth_challenge.c)] [[Description](Movement/labyrinth_challenge.pdf)]
     - **Robo 500 1** [[Code](Movement/robo_500_1.c)] [[Description](Movement/robo_500_1.pdf)]
+    - **Robo Slalom** [[Code](Movement/robo_slalom.c)] [[Description](Movement/robo_slalom.pdf)]
 - [Sensing](Sensing)
     - **Line Runner 1** [[Code](Sensing/line_runner_1.c)] [[Description](Sensing/line_runner_1.pdf)]
     - **Minefield Challenge 1** [[Code](Sensing/minefield_challenge_1.c)] [[Description](Sensing/minefield_challenge_1.pdf)]
